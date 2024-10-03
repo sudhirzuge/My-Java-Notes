@@ -1,0 +1,28 @@
+
+1) Generics were introduced in Java 5.0 (J2SE 5.0), released in 2004,
+   as a major addition to the language's type system.
+   
+2) Before generics, Java collections could store objects of any type
+   (essentially treated as Object). This meant that type casting was required when 
+   retrieving objects from collections, which could lead to runtime errors 
+   (ClassCastException) if the types didn't match.
+   
+3) This project aimed to extend Java with generic types,
+   providing compile-time type safety and eliminating the need for casts.
+   
+4) Wildcards :
+   - Java generics also introduced wildcards (?) 
+     to provide more flexibility in working with generic types.
+     Wildcards allow you to specify unknown types or types that have certain relationships
+     (e.g., upper bounds or lower bounds).
+     
+5) Type Erasure : 
+    - To maintain compatibility with older Java versions, generics are implemented using 
+      a technique called "type erasure." This means that the generic type information is removed at compile time,
+      and the resulting bytecode is essentially the same as if generics were not used.
+      
+6) Benefits :
+   - Type Safety
+   - Eliminate Casts
+   - Improved Code Readability
+   - Reusability
